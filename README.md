@@ -4,7 +4,7 @@ MergedTrie code
 Example of the usage of the MergedTrie. Please quote it as:
 Ferrandez A, Peral J (2019) MergedTrie: Efficient textual indexing. PLoS ONE 14(4): e0215288. https://doi.org/10.1371/journal.pone.0215288
 
-This is the C++ code to run the term-level index index of string-words (with additional data associated to each word) called MergedTrie. 
+This is the C++ code to run the term-level index of string-words (with additional data associated to each word) called MergedTrie. 
 It supports keyword insertion, search, modification, deletion, listing and prefix listing.
 
 Usage:
