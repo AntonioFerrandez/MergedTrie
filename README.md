@@ -12,6 +12,8 @@ Usage:
   * #include "MergedTrie.h" in the files that will use it with no data: "MergedTrie trie2;" or with data: "D_MergedTrie<char> trie1;"
   * The file "mainMergedTrie.cpp" shows the main functionalities of the data type
 
+Please, report any comment about it to antonio@dlsi.ua.es
+
 The main theoretical contributions of our proposal in comparison with previous types of Tries:
 1.	The MergedTrie extends the Double Trie (DT) structure (Morimoto et al. 1995; Aoe et al. 1996) in the following ways:
   •	It enhances the DT segmentation of the term in order to achieve a reduction in the height of the Trie by segmenting the term at exactly half its length.
