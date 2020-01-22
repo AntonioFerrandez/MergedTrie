@@ -33,3 +33,28 @@ Regarding the practical impact of our research:
   
 Abstract:
 The accessing and processing of textual information (i.e. the storing and querying of a set of strings) is especially important for many current applications (e.g. information retrieval and social networks), especially when working in the fields of Big Data or IoT, which require the handling of very large string dictionaries. Typical data structures for textual indexing are Hash Tables and some variants of Tries such as the Double Trie (DT). In this paper, we propose an extension of the DT that we have called MergedTrie. It improves the DT compression by merging both Tries into a single and by segmenting the indexed term into two fixed length parts in order to balance the new Trie. Thus, a higher overlapping of both prefixes and suffixes is obtained. Moreover, we propose a new implementation of Tries that achieves better compression rates than the Double-Array representation usually chosen for implementing Tries. Our proposal also overcomes the limitation of static implementations that does not allow insertions and updates in their compact representations. Finally, our MergedTrie implementation experimentally improves the efficiency of the Hash Tables, the DTs, the Double-Array, the Crit-bit, the Directed Acyclic Word Graphs (DAWG), and the Acyclic Deterministic Finite Automata (ADFA) data structures, requiring less space than the original text to be indexed.
+
+
+
+
+MIT License
+
+Copyright (c) Antonio Ferrandez Rodriguez antonio@dlsi.ua.es
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
